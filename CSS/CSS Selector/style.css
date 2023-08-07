@@ -1,0 +1,45 @@
+p {
+  color: rgb(7, 187, 7);
+}
+#hieu {
+  color: red;
+}
+.tho {
+  color: blue;
+}
+#abc {
+  color: rgb(77, 3, 145);
+}
+.cuong {
+  color: rgb(6, 138, 138);
+}
+input[type="text"] {
+  border: 1px solid red;
+}
+input[type="password"] {
+  border: 2px dashed blue;
+}
+input[type="date"] {
+  border: 3px solid green;
+}
+p[title~="em"] {
+  color: rgb(52, 52, 2);
+}
+a:active {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+input:disabled {
+  background-color: gray;
+}
+input:checked {
+  accent-color: black;
+}
+.class1::after{
+    content: "tho";
+}
+.boxp{
+color: rgb(187, 19, 19);
+}

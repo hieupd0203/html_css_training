@@ -1,0 +1,14 @@
+.hexa-color,.rgb-color,.rgba-color{
+    width: 100px;
+    height: 50px;
+}
+.hexa-color{
+    background-color: #123623;
+}
+.rgb-color{
+    background-color: rgb(200, 36, 88);
+    margin: 10px 0;
+}
+.rgba-color{
+    background-color: rgba(100, 86, 122, 1);
+}

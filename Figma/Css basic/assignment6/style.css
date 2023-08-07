@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #107E43;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-list{
+    display: flex;
+    gap: 30px;
+    
+
+}
+.box-item{
+    background-color: #8598CC;
+    padding: 20px;
+    flex-basis: 25%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #fff;
+}

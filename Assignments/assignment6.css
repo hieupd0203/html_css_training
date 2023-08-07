@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #bbb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.credit-card {
+  width: 500px;
+  min-height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.title {
+  font-size: 24px;
+  border-bottom: 1px solid #000;
+  padding: 30px;
+}
+.credit-card-form{
+  padding: 30px;
+}
+.btn-group{
+  padding: 0 30px 30px 30px;
+}
+.card-number-input {
+  width: 100%;
+}
+.input-item {
+  padding: 20px;
+  border-radius: 10px;
+  outline:none;
+  border: 2px solid #bbb9b9;
+  margin: 15px 0;
+  width: 100%;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 16px;
+}
+::placeholder {
+  font-size: 16px;
+}
+.btn {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 22px;
+}
+.btn-first{
+  background-color: rgb(88, 242, 61);
+}
+.btn-second{
+  background-color: rgb(3, 119, 201);
+}
+
+.input-group{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.CVV{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.CVV input,.CVV p{
+  flex-basis: 50%;
+}
